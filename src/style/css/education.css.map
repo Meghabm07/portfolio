@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,mBAAmB,CAAC;EAChB,UAAU,EAAE,IAAI;CACnB;;AAED,AAAA,gBAAgB,CAAC;EACb,KAAK,EAAE,OAAO;EACd,UAAU,EAAE,MAAM;EAClB,aAAa,EAAE,GAAG;CACrB;;AAED,AAAA,sBAAsB,CAAC;EACnB,OAAO,EAAE,eAAe;CAK3B;;AAND,AAEI,sBAFkB,CAElB,GAAG,CAAC;EACA,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,GAAG;CACd;;AAGL,AAAA,gBAAgB,CAAC;EACb,SAAS,EAAE,IAAI;CAClB",
+    "sources": [
+        "../scss/education.scss"
+    ],
+    "names": [],
+    "file": "education.css"
+}

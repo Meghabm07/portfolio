@@ -1,0 +1,46 @@
+.slider {
+    width: 100%;
+}
+
+.slick-slide {
+    // width: 100% !important;
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: auto !important;
+    height: 4em;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+
+.slick-slide {
+    transition: all ease-in-out .3s;
+    opacity: 1;
+}
+
+.slick-active {
+    opacity: 1;
+}
+
+.slick-current {
+    opacity: 1;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: #bdb6ba;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-dotted.slick-slider {
+    padding: 25px 0px;
+}

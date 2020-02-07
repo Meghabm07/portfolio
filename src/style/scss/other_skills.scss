@@ -1,0 +1,33 @@
+.other_skills__section {
+    background-color: #35363b;
+    margin-top: 8em;
+}
+
+.other_skills__card {
+    color: #bdb6ba;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.other_skills__container {
+    padding: 3em 0em;
+}
+
+.other__skills__section__title {
+    margin-bottom: 0.5em;
+    font-size: 30px;
+    font-weight: bold;
+    color: #75767C;
+    text-align: center;
+}
+
+.other_skills__img {
+    filter: grayscale(1);
+    &:hover {
+        filter: grayscale(0);
+    }
+}
+
+.lazy {
+    padding: 0vh 0vh 4vh 0vh;
+}

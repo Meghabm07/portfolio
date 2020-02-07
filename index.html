@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="./src/style/css/main.css">
+    <link rel="stylesheet" href="./src/style/css/skills.css">
+    <link rel="stylesheet" href="./src/style/css/experiance.css">
+    <link rel="stylesheet" href="./src/style/css/education.css">
+    <link rel="stylesheet" href="./src/style/css/slick.css">
+    <link rel="stylesheet" href="./src/style/css/other_skills.css">
+    <link rel="stylesheet" href="./src/style/css/portfolio.css">
+    <link rel="stylesheet" type="text/css" href="./src/plugins/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="./src/plugins/slick/slick-theme.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Megha Portfolio</title>
+</head>
+
+<body>
+    <div class="content__section">
+
+        <!-- Header -->
+        <header>
+            <nav id="header" class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">Portfolio</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="nav header__nav">
+                        <li class="nav-item header__link">
+                            <a class="nav-link active" href="#introduction">Introduction</a>
+                        </li>
+                        <li class="nav-item header__link">
+                            <a class="nav-link" href="#skills">skills</a>
+                        </li>
+                        <li class="nav-item header__link">
+                            <a class="nav-link" href="#experiance">experiance</a>
+                        </li>
+                        <li class="nav-item header__link">
+                            <a class="nav-link" href="#education">education</a>
+                        </li>
+                        <li class="nav-item header__link">
+                            <a class="nav-link" href="#portfolio">portfolio</a>
+                        </li>
+                        <li class="nav-item header__link">
+                            <a class="nav-link" href="#other_skills">other skills</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Introduction Section -->
+        <section id="introduction">
+            <div class="container intro__container">
+                <div class="d-flex justify-content-center">
+                    <div class="card intro__card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-5 text-center">
+                                    <img src="./src/images/my_profile.png" class="img-fluid profile__img" alt="...">
+                                </div>
+                                <div class="col-md-7">
+                                    <h4 class="card-title">Megha B M</h4>
+                                    <h6>Web Developer</h6>
+                                    <p class="card-text">
+                                        Experienced Web developer with a demonstrated history of working in the information technology and services industry. Skilled in PHP, laravel, Vue js , HTML, Adobe Photoshop,Adobe xd and Object-Oriented Programming (OOPs). Strong engineering professional
+                                        with a Bachelor of Technology focused in Computer Science.
+                                    </p>
+                                    <hr>
+                                    <table class="profile__info table table-responsive w-100">
+                                        <thead>
+                                            <tr>
+                                                <th>
+                                                    <i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp; Years of Experiance</th>
+                                                <td> 1.8 Years </td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th>
+                                                    <i class="fa fa-envelope" aria-hidden="true"></i>&nbsp; Email
+                                                </th>
+                                                <td id="email" title="Click to copy" onclick="copyEmail(this)"> meghabm07@gmail.com </td>
+                                            </tr>
+                                            <tr>
+                                                <th>
+                                                    <i class="fa fa-phone" aria-hidden="true"></i>&nbsp; Phone Number</th>
+                                                <td> Lorem Ipsum </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2">
+                                                    <a href="src/file/resume.pdf" target="_blank">
+                                                        <button type="button" class="btn download__resume">
+                                                            <i class="fa fa-download" aria-hidden="true"></i>
+                                                            Download Resume
+                                                        </button>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row social__network__row">
+                            <div class="col-12">
+                                <ul class="nav bg-pink justify-content-center social__network">
+                                    <li class="nav-item">
+                                        <a class="nav-link" target="_blank" href="https://in.linkedin.com/in/megha-bm-2b21b416a">
+                                            <i class="fa fa-linkedin fa-lg" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" target="_blank" href="https://www.instagram.com/megha_mohan08">
+                                            <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" target="_blank" href="https://www.facebook.com/meghana.nisha.92">
+                                            <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" target="_blank" href="https://github.com/Meghabm07/">
+                                            <i class="fa fa-github fa-lg" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Skills Section-->
+
+        <section id="skills" class="professional__skills__section">
+            <div class="container">
+                <h5 class="section__title"> Professional Skills
+                </h5>
+                <div class="row">
+                    <div class="col-lg-2 col-md-3 col-sm-4 text-center">
+                        <div data-aos="flip-right">
+                            <div class="progressbar" data-animate="false">
+                                <div class="skill__title">
+                                    Laravel & PHP
+                                </div>
+                                <div class="circle" data-percent="80">
+                                    <div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 text-center">
+                        <div data-aos="flip-left">
+                            <div class="progressbar" data-animate="false">
+                                <div class="skill__title">
+                                    Bootstrap
+                                </div>
+                                <div class="circle" data-percent="70">
+                                    <div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 text-center">
+                        <div data-aos="flip-right">
+                            <div class="progressbar" data-animate="false">
+                                <div class="skill__title">
+                                    Html & CSS
+                                </div>
+                                <div class="circle" data-percent="85">
+                                    <div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 text-center">
+                        <div data-aos="flip-left">
+                            <div class="progressbar" data-animate="false">
+                                <div class="skill__title">
+                                    JS & jQuery
+                                </div>
+                                <div class="circle" data-percent="70">
+                                    <div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 text-center">
+                        <div data-aos="flip-right">
+                            <div class="progressbar" data-animate="false">
+                                <div class="skill__title">
+                                    VueJs
+                                </div>
+                                <div class="circle" data-percent="70">
+                                    <div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-4 text-center">
+                        <div data-aos="flip-left">
+                            <div class="progressbar" data-animate="false">
+                                <div class="skill__title">
+                                    Git
+                                </div>
+                                <div class="circle" data-percent="40">
+                                    <div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Experiance Section-->
+
+        <section id="experiance" class="work__experiance__section">
+            <div class="container">
+                <h5 class="section__title"> Work Experiance</h5>
+                <div class="experiance__timeline">
+                    <div data-aos="fade-right">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="experiance__container left">
+                                    <div class="content ">
+                                        <div class="content__header">
+                                            <h5 class="mb-0">
+                                                <i class="fa fa-briefcase" aria-hidden="true"></i> Web Developer</h5>
+                                        </div>
+                                        <div class="content__body">
+                                            <div class="company__name">
+                                                Solid System Global
+                                                <div class="work__year">
+                                                    2019-till now
+                                                </div>
+                                            </div>
+                                            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea
+                                                eam.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 text-center">
+                                <img src="./src/images/work1.png" class="work__img" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="fade-left">
+                        <div class="row">
+                            <div class="col-md-6 text-center">
+                                <img src="./src/images/work2.png" class="work__img" alt="">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="experiance__container right">
+                                    <div class="content ">
+                                        <div class="content__header">
+                                            <h5 class="mb-0">
+                                                <i class="fa fa-briefcase" aria-hidden="true"></i> Web Developer</h5>
+                                        </div>
+                                        <div class="content__body">
+                                            <div class="company__name">
+                                                Site Galleria
+                                                <div class="work__year">
+                                                    02/2019 - 08/2019
+                                                </div>
+                                            </div>
+                                            <p>Solely responsible for coding high standard web-based applications in PHP. Giving 100% effort for projects in a timely and efficient way that improves the code-base of products in meaningful ways. I was part
+                                                of a creative team that is responsible for all aspects of the ongoing software development from the initial specification, through to developing, testing and launching.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="fade-right">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="experiance__container left">
+                                    <div class="content ">
+                                        <div class="content__header">
+                                            <h5 class="mb-0">
+                                                <i class="fa fa-briefcase" aria-hidden="true"></i> Web Developer Intern</h5>
+                                        </div>
+                                        <div class="content__body">
+                                            <div class="company__name">
+                                                Kreative Digital Solution Pvt. Ltd Bangalore
+                                                <div class="work__year">
+                                                    09/2018 – 01/2/19
+                                                </div>
+                                            </div>
+                                            <p>Solely responsible for the development of Internet sites and. Build websites using Word Press. Duties included website Designs, programming. Prepare Website proposals to present to clients. Design new features
+                                                for exiting Websites.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 text-center">
+                                <img src="./src/images/work3.png" class="work__img" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="fade-left">
+                        <div class="row">
+                            <div class="col-md-6 text-center">
+                                <img src="./src/images/work4.png" class="work__img" alt="">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="experiance__container right">
+                                    <div class="content ">
+                                        <div class="content__header">
+                                            <h5 class="mb-0">
+                                                <i class="fa fa-briefcase" aria-hidden="true"></i> Web Developer Intern</h5>
+                                        </div>
+                                        <div class="content__body">
+                                            <div class="company__name">
+                                                Karma Labs
+                                                <div class="work__year">
+                                                    8/2018 - 9/2018
+                                                </div>
+                                            </div>
+                                            <p>Used Photoshop, XHTML, and CSS for all website design. Used JavaScript and AJAX for all client-side scripting. Responsible for designing front end as clients requirement</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section-->
+
+        <section id="education" class="education__section">
+            <div class="container">
+                <h5 class="section__title">Education</h5>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div data-aos="zoom-in">
+                            <div class="education__card">
+                                <div class="education__card__logo">
+                                    <img src="./src/images/high-school.png" class="" alt="...">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">SSLC <span>(83.69%)</span></h5>
+                                    <p class="card-text">Mitralaya Girls's High School</p>
+                                    <p class="education__year">2011 - 2012</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div data-aos="zoom-in">
+                            <div class="education__card">
+                                <div class="education__card__logo">
+                                    <img src="./src/images/university.png" class="" alt="...">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">PUC <span>(86.33%)</span></h5>
+                                    <p class="card-text">The National PU College Jayanagar</p>
+                                    <p class="education__year">2012 - 2014</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div data-aos="zoom-in">
+                            <div class="education__card">
+                                <div class="education__card__logo">
+                                    <img src="./src/images/student.png" class="" alt="...">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">B.E (CSE) <span>(70.00%)</span></h5>
+                                    <p class="card-text">Global Academy Of Technology</p>
+                                    <p class="education__year">2014 - 2018</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section-->
+
+        <section id="portfolio" class="portfolio__section">
+            <div class="container">
+                <h5 class="section__title">Portfolio</h5>
+                <div class="grid">
+                    <div class="item">
+                        <div class="center__btn">
+                            <h6>Photo Effects Paint Splash on face using Brush</h6>
+                            <i class="fa fa-eye fa-2x" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="item item--large ">
+                        <div class="center__btn">
+                            <h6>Photo Effects Paint Splash on face using Brush</h6>
+                            <i class="fa fa-eye fa-2x" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="item item--medium">
+                        <div class="center__btn">
+                            <h6>Photo Effects Paint Splash on face using Brush</h6>
+                            <i class="fa fa-eye fa-2x" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="item item--large">
+                        <div class="center__btn">
+                            <h6>Photo Effects Paint Splash on face using Brush</h6>
+                            <i class="fa fa-eye fa-2x" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="item item--medium">
+                        <div class="center__btn">
+                            <h6>Photo Effects Paint Splash on face using Brush</h6>
+                            <i class="fa fa-eye fa-2x" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="center__btn">
+                            <h6>Photo Effects Paint Splash on face using Brush</h6>
+                            <i class="fa fa-eye fa-2x" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Intrests Section-->
+
+        <section id="other_skills" class="other_skills__section">
+            <div class="container other_skills__container">
+                <h5 class="other__skills__section__title">Other Skills</h5>
+                <section class="center slider">
+                    <div>
+                        <img class="other_skills__img" src="./src/images/skills/adobe-xd.png">
+                    </div>
+                    <div>
+                        <img class="other_skills__img" src="./src/images/skills/bootstrap.png">
+                    </div>
+                    <div>
+                        <img class="other_skills__img" src="./src/images/skills/Laravel_logo_wordmark_logotype.png">
+                    </div>
+                    <div>
+                        <img class="other_skills__img" src="./src/images/skills/WordPress.png">
+                    </div>
+                    <div>
+                        <img class="other_skills__img" src="./src/images/skills/adobe-xd.png">
+                    </div>
+                    <div>
+                        <img class="other_skills__img" src="./src/images/skills/vue.png">
+                    </div>
+                    <div>
+                        <img class="other_skills__img" src="./src/images/skills/scss.png">
+                    </div>
+                    <div>
+                        <img class="other_skills__img" src="./src/images/skills/jquery.png">
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <h6>Copyright © by Megha B M @2020.</h6>
+        </footer>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js"></script>
+    <script src="./src/js/header.js"></script>
+    <script src="./src/js/skills.js"></script>
+    <script type="text/javascript" src="./src/plugins/slick/slick.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script type="text/javascript">
+        $(".center").slick({
+            dots: true,
+            infinite: true,
+            centerMode: true,
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            responsive: [{
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    slidesToShow: 2
+                }
+            }, {
+                breakpoint: 940,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    slidesToShow: 3
+                }
+            }, {
+                breakpoint: 580,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    slidesToShow: 2
+                }
+            }]
+
+        });
+    </script>
+    <script>
+        function copyEmail(thisPointer) {
+            var $temp = $("<input>");
+            $("body").append($temp);
+            $temp.val($(thisPointer).text()).select();
+            document.execCommand("copy");
+            $temp.remove();
+        }
+        $(function() {
+            $('.header__link').click(function() {
+
+                $('.header__link').each(function() {
+                    if ($(this).hasClass('nav__active')) {
+                        console.log($(this).hasClass('nav__active'));
+
+                        $(this).removeClass('nav__active')
+                    }
+                });
+
+                if ($($(this).children()[0]).context.hash == location.hash) {
+                    $(this).addClass('nav__active');
+                } else {
+                    $(this).addClass('nav__active');
+                }
+                var target = $($($(this).children()[0]).context.hash);
+
+                if (target.length == 0) target = $('a[name="' + this.hash.substr(1) + '"]');
+                if (target.length == 0) target = $('html');
+                $('html, body').animate({
+                    scrollTop: target.offset().top - 100
+                }, 1000);
+                return false;
+            });
+        });
+    </script>
+</body>
+
+</html>

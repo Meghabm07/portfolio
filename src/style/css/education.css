@@ -1,0 +1,23 @@
+.education__section {
+  margin-top: 12vh;
+}
+
+.education__card {
+  color: #bdb6ba;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.education__card__logo {
+  padding: 0vh 5vh 0vh 5vh;
+}
+
+.education__card__logo img {
+  width: 8em;
+  height: 8em;
+}
+
+.education__year {
+  font-size: 12px;
+}
+/*# sourceMappingURL=education.css.map */

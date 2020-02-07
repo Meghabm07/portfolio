@@ -1,0 +1,196 @@
+.bg-pink {
+  background-color: #ec407a;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #545454;
+  background-color: #27292e;
+}
+
+.navbar {
+  padding: 0.5rem 4rem !important;
+}
+
+.header__nav li a {
+  color: #9a9da2;
+  font-weight: 900;
+  font-size: 14px;
+}
+
+.navbar-brand {
+  color: #9a9da2 !important;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.head-sticky {
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 65px;
+  line-height: 1;
+  z-index: 1;
+  position: fixed;
+  background-color: #27292e !important;
+  color: #27292e !important;
+  padding-top: 0;
+  padding-bottom: 0;
+  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.19), 0 6px 10px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.19), 0 6px 10px rgba(0, 0, 0, 0.23);
+}
+
+.head-sticky a {
+  color: #9a9da2 !important;
+}
+
+.head-sticky button .navbar-toggler-icon {
+  background-image: url("../../images/menu.png") !important;
+  border-color: #9a9da2 !important;
+}
+
+.content__section-bg {
+  background-size: 100% 40% !important;
+}
+
+.content__section {
+  background-image: url("https://rscard.px-lab.com/html/img/uploads/rs-cover.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 75vh;
+  height: 800px;
+}
+
+.content__section:before {
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 75vh;
+  position: absolute;
+  background-color: rgba(44, 51, 64, 0.8);
+}
+
+.content__section nav {
+  color: #3c4451;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 2;
+  text-transform: uppercase;
+}
+
+#header {
+  background-color: transparent;
+}
+
+.intro__container {
+  padding-top: 17vh;
+}
+
+.nav__active {
+  border-bottom: 4px solid #ec407a;
+}
+
+.header__link:hover {
+  border-bottom: 4px solid #ec407a;
+}
+
+.intro__card {
+  width: 85%;
+  color: #d4d4d5;
+  background-color: #35363b;
+  height: auto;
+  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.19), 0 6px 10px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.19), 0 6px 10px rgba(0, 0, 0, 0.23);
+}
+
+.intro__card .card-body {
+  padding: 7vh 7vh 3vh 7vh;
+}
+
+.intro__card .card-body .card-title {
+  font-weight: 700;
+}
+
+.profile__img {
+  width: auto;
+  height: 25em;
+}
+
+.profile__info {
+  color: #d4d4d5;
+  font-size: 14px;
+}
+
+.profile__info thead th {
+  border-bottom: none;
+}
+
+.profile__info th {
+  border-top: none;
+}
+
+.profile__info td {
+  border-top: none;
+}
+
+.social__network {
+  padding: 3vh;
+}
+
+.social__network li a {
+  color: white;
+}
+
+hr {
+  background-color: #d4d4d561;
+}
+
+.download__resume {
+  background-color: #ec407a;
+  color: #d4d4d5;
+}
+
+.download__resume:hover {
+  border: 1px solid #ec407a;
+  background-color: #27292e;
+  color: #d4d4d5;
+}
+
+.section__title {
+  font-size: 30px;
+  margin-bottom: 7vh;
+  font-weight: bold;
+  color: #75767C;
+  text-align: center;
+}
+
+.footer {
+  height: 65px;
+  background-color: #35363b;
+  color: #d4d4d5;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 2;
+  text-transform: uppercase;
+  margin-top: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer h6 {
+  position: absolute;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.btn.focus,
+.btn:focus {
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(236, 64, 122, 0.25);
+          box-shadow: 0 0 0 0.2rem rgba(236, 64, 122, 0.25);
+}
+/*# sourceMappingURL=main.css.map */
