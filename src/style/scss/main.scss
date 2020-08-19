@@ -1,7 +1,7 @@
 $green: #07cb79;
 $pink:#ec407a;
 $purple:#8e45ae;
-$font-weights:( 'regular':300, 'medium':500, 'bold':700);
+$font-weights:('regular':300, 'medium':500, 'bold':700);
 .bg-pink {
     background-color: $pink;
 }
@@ -14,12 +14,21 @@ body {
     background-color: #27292e;
 }
 
+.fa-bars {
+    color: #9a9da2;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, .5);
+    border-color: $pink;
+}
+
 .navbar {
     padding: 0.5rem 4rem !important;
 }
 
-.header__nav li a {
-    color: #9a9da2;
+.navbar-nav li a {
+    color: #9a9da2 !important;
     font-weight: 900;
     font-size: 14px;
 }
@@ -184,4 +193,102 @@ hr {
 .btn:focus {
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(236, 64, 122, 0.25);
+}
+
+@media (max-width: 1500px) and (min-width:767px) {
+    body {
+        h5,
+        h6,
+        h4,
+        p {
+            font-size: 87%;
+        }
+        .other__skills__section__title,
+        .section__title {
+            font-size: 22px;
+        }
+        .nav-pills {
+            .nav-link {
+                display: block;
+                padding: 0.2rem 0.8rem;
+                font-size: 17px;
+            }
+        }
+        .footer {
+            height: 43px;
+        }
+        .download__resume {
+            background-color: $pink;
+            color: #d4d4d5;
+            padding: .3rem .5rem;
+            font-size: 15px;
+        }
+        .social__network {
+            padding: 2vh;
+            .nav-link {
+                display: block;
+                padding: .2rem 1rem;
+                .fa-lg {
+                    font-size: 1em;
+                    line-height: .75em;
+                    vertical-align: -15%;
+                }
+            }
+        }
+        .contact__details {
+            div {
+                font-size: 14px;
+            }
+        }
+        .profile__img {
+            width: auto;
+            height: 20em;
+        }
+    }
+}
+
+@media(max-width: 1500px) and (min-width:996px) {
+    .intro__card {
+        width: 70%;
+    }
+}
+
+@media(max-width:995px) {
+    .intro__card {
+        width: 100%;
+    }
+}
+
+@media (max-width:720px) and (min-width:420px) {
+    .navbar {
+        padding: 0.5rem 3rem !important;
+    }
+    .profile__img {
+        width: auto;
+        height: auto;
+        padding-bottom: 2rem;
+    }
+    .intro__card {
+        width: 84%;
+    }
+    .intro__card .card-body {
+        padding: 3rem 3rem 3rem 3rem;
+    }
+}
+
+@media (max-width:421px) {
+    .navbar {
+        padding: 0.5rem 1.5rem !important;
+    }
+    .profile__img {
+        width: auto;
+        height: auto;
+        padding-bottom: 2rem;
+    }
+    .intro__card {
+        width: 90%;
+    }
+    .intro__card .card-body {
+        padding: 2rem 2rem 2rem 2rem;
+    }
 }

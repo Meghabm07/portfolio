@@ -30,11 +30,11 @@
             <nav id="header" class="navbar navbar-expand-lg navbar-light">
                 <a class="navbar-brand" href="#">Portfolio</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </button>
 
                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                    <ul class="nav header__nav">
+                    <ul class="navbar-nav header__nav">
                         <li class="nav-item header__link">
                             <a class="nav-link active" href="#introduction">Introduction</a>
                         </li>
@@ -76,38 +76,26 @@
                                         with a Bachelor of Technology focused in Computer Science.
                                     </p>
                                     <hr>
-                                    <table class="profile__info table table-responsive w-100">
-                                        <thead>
-                                            <tr>
-                                                <th>
-                                                    <i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp; Years of Experiance</th>
-                                                <td> 1.8 Years </td>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <th>
-                                                    <i class="fa fa-envelope" aria-hidden="true"></i>&nbsp; Email
-                                                </th>
-                                                <td id="email" title="Click to copy" onclick="copyEmail(this)"> meghabm07@gmail.com </td>
-                                            </tr>
-                                            <tr>
-                                                <th>
-                                                    <i class="fa fa-phone" aria-hidden="true"></i>&nbsp; Phone Number</th>
-                                                <td> Lorem Ipsum </td>
-                                            </tr>
-                                            <tr>
-                                                <td colspan="2">
-                                                    <a href="src/file/resume.pdf" target="_blank">
-                                                        <button type="button" class="btn download__resume">
-                                                            <i class="fa fa-download" aria-hidden="true"></i>
-                                                            Download Resume
-                                                        </button>
-                                                    </a>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                                    <div class="d-flex flex-column contact__details">
+                                        <div class="p-2">
+                                            <i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp; Years of Experiance : 1.8 Years
+                                        </div>
+                                        <div class="p-2">
+                                            <i class="fa fa-envelope" aria-hidden="true"></i>&nbsp; Email :
+                                            <span id="email" title="Click to copy" onclick="copyEmail(this)">
+                                                meghabm07@gmail.com </span>
+                                        </div>
+                                        <div class="p-2"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp; Phone Number : 9611487498</div>
+                                        <div class="p-2">
+                                            <a href="src/file/resume.pdf" target="_blank">
+                                                <button type="button" class="btn download__resume">
+                                                    <i class="fa fa-download" aria-hidden="true"></i>
+                                                    Download Resume
+                                                </button>
+                                            </a>
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
 
@@ -151,74 +139,62 @@
                 </h5>
                 <div class="row">
                     <div class="col-lg-2 col-md-3 col-sm-4 text-center">
-                        <div data-aos="flip-right">
-                            <div class="progressbar" data-animate="false">
-                                <div class="skill__title">
-                                    Laravel & PHP
-                                </div>
-                                <div class="circle" data-percent="80">
-                                    <div></div>
-                                </div>
+                        <div class="progressbar" data-animate="false">
+                            <div class="skill__title">
+                                Laravel & PHP
+                            </div>
+                            <div class="circle" data-percent="80">
+                                <div></div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-4 text-center">
-                        <div data-aos="flip-left">
-                            <div class="progressbar" data-animate="false">
-                                <div class="skill__title">
-                                    Bootstrap
-                                </div>
-                                <div class="circle" data-percent="70">
-                                    <div></div>
-                                </div>
+                        <div class="progressbar" data-animate="false">
+                            <div class="skill__title">
+                                Bootstrap
+                            </div>
+                            <div class="circle" data-percent="70">
+                                <div></div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-4 text-center">
-                        <div data-aos="flip-right">
-                            <div class="progressbar" data-animate="false">
-                                <div class="skill__title">
-                                    Html & CSS
-                                </div>
-                                <div class="circle" data-percent="85">
-                                    <div></div>
-                                </div>
+                        <div class="progressbar" data-animate="false">
+                            <div class="skill__title">
+                                Html & CSS
+                            </div>
+                            <div class="circle" data-percent="85">
+                                <div></div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-4 text-center">
-                        <div data-aos="flip-left">
-                            <div class="progressbar" data-animate="false">
-                                <div class="skill__title">
-                                    JS & jQuery
-                                </div>
-                                <div class="circle" data-percent="70">
-                                    <div></div>
-                                </div>
+                        <div class="progressbar" data-animate="false">
+                            <div class="skill__title">
+                                JS & jQuery
+                            </div>
+                            <div class="circle" data-percent="70">
+                                <div></div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-4 text-center">
-                        <div data-aos="flip-right">
-                            <div class="progressbar" data-animate="false">
-                                <div class="skill__title">
-                                    VueJs
-                                </div>
-                                <div class="circle" data-percent="70">
-                                    <div></div>
-                                </div>
+                        <div class="progressbar" data-animate="false">
+                            <div class="skill__title">
+                                VueJs
+                            </div>
+                            <div class="circle" data-percent="70">
+                                <div></div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-4 text-center">
-                        <div data-aos="flip-left">
-                            <div class="progressbar" data-animate="false">
-                                <div class="skill__title">
-                                    Git
-                                </div>
-                                <div class="circle" data-percent="40">
-                                    <div></div>
-                                </div>
+                        <div class="progressbar" data-animate="false">
+                            <div class="skill__title">
+                                Git
+                            </div>
+                            <div class="circle" data-percent="40">
+                                <div></div>
                             </div>
                         </div>
                     </div>
@@ -232,7 +208,7 @@
             <div class="container">
                 <h5 class="section__title"> Work Experiance</h5>
                 <div class="experiance__timeline">
-                    <div data-aos="fade-right">
+                    <div>
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="experiance__container left">
@@ -260,7 +236,7 @@
                             </div>
                         </div>
                     </div>
-                    <div data-aos="fade-left">
+                    <div>
                         <div class="row">
                             <div class="col-md-6 text-center">
                                 <img src="./src/images/work2.png" class="work__img" alt="">
@@ -287,14 +263,15 @@
                             </div>
                         </div>
                     </div>
-                    <div data-aos="fade-right">
+                    <div>
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="experiance__container left">
                                     <div class="content ">
                                         <div class="content__header">
                                             <h5 class="mb-0">
-                                                <i class="fa fa-briefcase" aria-hidden="true"></i> Web Developer Intern</h5>
+                                                <i class="fa fa-briefcase" aria-hidden="true"></i> Web Developer Intern
+                                            </h5>
                                         </div>
                                         <div class="content__body">
                                             <div class="company__name">
@@ -315,7 +292,7 @@
                             </div>
                         </div>
                     </div>
-                    <div data-aos="fade-left">
+                    <div>
                         <div class="row">
                             <div class="col-md-6 text-center">
                                 <img src="./src/images/work4.png" class="work__img" alt="">
@@ -325,7 +302,8 @@
                                     <div class="content ">
                                         <div class="content__header">
                                             <h5 class="mb-0">
-                                                <i class="fa fa-briefcase" aria-hidden="true"></i> Web Developer Intern</h5>
+                                                <i class="fa fa-briefcase" aria-hidden="true"></i> Web Developer Intern
+                                            </h5>
                                         </div>
                                         <div class="content__body">
                                             <div class="company__name">
@@ -402,14 +380,19 @@
         <section id="portfolio" class="portfolio__section">
             <div class="container">
                 <h5 class="section__title">Portfolio</h5>
+                <ul class="nav nav-pills justify-content-center pb-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Active</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                </ul>
                 <div class="grid">
-                    <div class="item">
-                        <div class="center__btn">
-                            <h6>Photo Effects Paint Splash on face using Brush</h6>
-                            <i class="fa fa-eye fa-2x" aria-hidden="true"></i>
-                        </div>
-                    </div>
-                    <div class="item item--large ">
+                    <div class="item item--medium">
                         <div class="center__btn">
                             <h6>Photo Effects Paint Splash on face using Brush</h6>
                             <i class="fa fa-eye fa-2x" aria-hidden="true"></i>
@@ -421,7 +404,7 @@
                             <i class="fa fa-eye fa-2x" aria-hidden="true"></i>
                         </div>
                     </div>
-                    <div class="item item--large">
+                    <div class="item item--medium">
                         <div class="center__btn">
                             <h6>Photo Effects Paint Splash on face using Brush</h6>
                             <i class="fa fa-eye fa-2x" aria-hidden="true"></i>
@@ -433,7 +416,13 @@
                             <i class="fa fa-eye fa-2x" aria-hidden="true"></i>
                         </div>
                     </div>
-                    <div class="item">
+                    <div class="item item--medium">
+                        <div class="center__btn">
+                            <h6>Photo Effects Paint Splash on face using Brush</h6>
+                            <i class="fa fa-eye fa-2x" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="item item--medium">
                         <div class="center__btn">
                             <h6>Photo Effects Paint Splash on face using Brush</h6>
                             <i class="fa fa-eye fa-2x" aria-hidden="true"></i>
@@ -478,8 +467,8 @@
         </section>
 
         <!-- Footer -->
-        <footer class="footer">
-            <h6>Copyright © by Megha B M @2020.</h6>
+        <footer class="footer d-flex justify-content-center">
+            <h6 class="mb-0">Copyright © by Megha B M @2020.</h6>
         </footer>
 
     </div>
@@ -523,7 +512,7 @@
                 settings: {
                     arrows: false,
                     centerMode: true,
-                    slidesToShow: 2
+                    slidesToShow: 1
                 }
             }]
 

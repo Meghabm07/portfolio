@@ -1,3 +1,18 @@
+.nav-pills .nav-item .nav-link {
+  background-color: none;
+  color: #ec407a;
+}
+
+.nav-pills .nav-item .nav-link:hover {
+  color: #d2d0d0 !important;
+  background-color: #ec407a !important;
+}
+
+.nav-pills .nav-item .active {
+  color: #d2d0d0;
+  background-color: #ec407a !important;
+}
+
 .portfolio__section {
   margin-top: 12vh;
 }
@@ -174,4 +189,3 @@ h1 {
   padding-right: 0.5em;
   color: #444;
 }
-/*# sourceMappingURL=portfolio.css.map */
